@@ -1,4 +1,7 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
 
-# code your CLI here!
+puts "Hi friend, what's your name?"
+puts "Enter here: "
+name = gets.strip
+
